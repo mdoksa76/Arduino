@@ -1,0 +1,6 @@
+Spajanje na Arduino UNO:
+
+  SDA --> A4 (ANALOG IN)
+  SCL --> A5 (ANALOG IN)
+  VCC --> 5V (POWER)
+  GND --> GND (POWER)
