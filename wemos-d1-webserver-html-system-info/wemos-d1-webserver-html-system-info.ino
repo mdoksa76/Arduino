@@ -3,8 +3,8 @@
 #include <FS.h>
 
 // Zamijenite s vašim WiFi SSID i lozinkom
-const char* ssid[] = {"Speedport-705734", "Optima-6a54a1", "SSID3"};
-const char* password[] = {"chsn5u5ere3nxcng", "OPTIMA2843501301", "PASSWORD3"};
+const char* ssid[] = {"SSID1", "SSID2", "SSID3"};
+const char* password[] = {"PASSWORD1", "PASSWORD2", "PASSWORD3"};
 const int ssidCount = sizeof(ssid) / sizeof(ssid[0]);
 
 ESP8266WebServer server(80);
@@ -149,3 +149,4 @@ void handleCalculate() {
     server.send(200, "text/plain", "Missing parameters!");
   }
 }
+
