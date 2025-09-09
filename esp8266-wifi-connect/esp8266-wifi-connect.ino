@@ -1,7 +1,7 @@
 #include "ESP8266WiFi.h"
 
-const char* ssid = "ZTE2801A6"; //Enter SSID
-const char* password = "20gabek08"; //Enter Password
+const char* ssid = "SSID"; //Enter SSID
+const char* password = "PASS"; //Enter Password
 
 void setup(void)
 {
@@ -24,3 +24,4 @@ void loop()
 {
   // EMPTY
 }
+
