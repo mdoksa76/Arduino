@@ -9,8 +9,8 @@
 #include <ESP8266WebServer.h>
 
 // Replace with your network details
-const char* ssid     = "Speedport-705734";
-const char* password = "chsn5u5ere3nxcng";
+const char* ssid     = "*****";
+const char* password = "*****";
 
 ESP8266WebServer server(80);
 
@@ -50,3 +50,4 @@ void loop(void)
 {
   server.handleClient();
 }
+
