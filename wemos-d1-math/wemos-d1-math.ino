@@ -9,8 +9,8 @@
 #include <ESP8266WebServer.h>
 
 // Replace with your network details
-const char* ssid     = "ZTE2801A6";
-const char* password = "20gabek08";
+const char* ssid     = "SSID";
+const char* password = "PASS";
 
 ESP8266WebServer server(80);
 
@@ -98,3 +98,4 @@ void loop(void)
     Serial.println(P, DEC); Serial.println();
   }
 }
+
